@@ -7,14 +7,13 @@ function verifyCertificate() {
             name: "RO/18220 Lt. Allan Egwele",
             course: "DTOC",
             dateIssued: "September 2026",
-            institution: "IPSO-TC"
-        },
-     "CERT002": {
-            name: "RA/286486 PTE Natuhweza Mohammed",
+            institution: "IPSO-TC" },
+     "CERT002": {  name: "RA/286486 PTE Natuhweza Mohammed",
             course: "DTOC",
             dateIssued: "September 2026",
             institution: "IPSO-TC"
-    };
+    }
+ };
 
     if (certificates[certificateNumber]) {
         const certificate = certificates[certificateNumber];
