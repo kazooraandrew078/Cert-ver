@@ -8,7 +8,12 @@ function verifyCertificate() {
             course: "DTOC",
             dateIssued: "September 2026",
             institution: "IPSO-TC"
-        }
+        },
+     "CERT002": {
+            name: "RA/286486 PTE Natuhweza Mohammed",
+            course: "DTOC",
+            dateIssued: "September 2026",
+            institution: "IPSO-TC"
     };
 
     if (certificates[certificateNumber]) {
