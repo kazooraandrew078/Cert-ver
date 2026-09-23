@@ -4,7 +4,7 @@ function verifyCertificate() {
 
     const certificates = {
         "CERT001": {
-            name: "Lt. Allan Egwele",
+            name: "RO/18220 Lt. Allan Egwele",
             course: "DTOC",
             dateIssued: "September 2026",
             institution: "IPSO-TC"
