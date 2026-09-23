@@ -45,4 +45,13 @@ const certificates = { "CERT001": { name: "RO/15053 CAPT Moses Atweta", courseAt
 "CERT046": {    name: "RA/292598 PTE Agaba Juspus Guma",    courseAttended: "Digital Tactical Operations Centre (DTOC)",    intake: "01/26",    dateIssued: "Sep 26",    institution: "UPDF- IPSO-TC Singo"},
 "CERT047": {    name: "RA/295873 PTE Omoding Vicent",    courseAttended: "Digital Tactical Operations Centre (DTOC)",    intake: "01/26",    dateIssued: "Sep 26",    institution: "UPDF- IPSO-TC Singo"}};function verifyCertificate() { const certificateNumber = document .getElementById("certificateNumber") .value .trim() .toUpperCase();const result = document.getElementById("result");
 if (certificates[certificateNumber]) {    const certificate = certificates[certificateNumber];
-    result.innerHTML = `        <h3>Certificate Verified</h3>        <p><strong>Certificate Number:</strong> ${certificateNumber}</p>        <p><strong>Name:</strong> ${certificate.name}</p>        <p><strong>Course Attended:</strong> ${certificate.courseAttended}</p>        <p><strong>Intake:</strong> ${certificate.intake}</p>        <p><strong>Date Issued:</strong> ${certificate.dateIssued}</p>        <p><strong>Institution:</strong> ${certificate.institution}</p>    `;} else {    result.innerHTML = `        <h3>Certificate Not Found</h3>        <p>Please check the certificate number and try again.</p>    `;}}
+    result.innerHTML = `        <h3>Certificate Verified</h3>        <p><strong>Certificate Number:</strong> ${certificateNumber}</p>        <p><strong>Name:</strong> ${certificate.name}</p>        <p><strong>Course Attended:</strong> ${certificate.courseAttended}</p>        <p><strong>Intake:</strong> ${certificate.intake}</p>        <p><strong>Date Issued:</strong> ${certificate.dateIssued}</p>        <p><strong>Institution:</strong> ${certificate.institution}</p>    `;} <p><strong>Date Issued:</strong> $
+{certificate.dateIssued}</p> <p><strong>Institution:</strong> $
+{certificate. institution}</p>
+<p><strong>Issued by:</strong> MB KIMUKU</p>
+<p><strong>Rank:</strong> Lt. Col</
+p>
+<p><strong>Appointment:</strong>
+CI</p>
+<p><strong>Signature:</strong></p> <img src="signature.png" alt="Issuing Officer Signature" style="max-width: 200px; height:
+auto;"> else {    result.innerHTML = `        <h3>Certificate Not Found</h3>        <p>Please check the certificate number and try again.</p>    `;}}
