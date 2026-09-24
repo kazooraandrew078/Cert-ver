@@ -58,11 +58,11 @@ function verifyCertificate() {
             <p><strong>RANK:</strong> ${certificate.rank}</p>
             <p><strong>COURSE ATTENDED:</strong>            Digital Tactical Operations Centre (DTOC)</p>
             <p><strong>INTAKE:</strong> 01/26</p>
-            <p><strong>INSTITUTION:</strong> UPDF- IPSO-TC Singo</p>
+            <p><strong>INSTITUTION:</strong>            UPDF- IPSO-TC Singo</p>
             <p><strong>DATE ISSUED:</strong> Sep 26</p>
             <br>
             <p><strong>ISSUING OFFICER:</strong></p>
-            <p>[SIGNATURE]</p>
+            ${                certificateNumber === "CERT004" ||                certificateNumber === "CERT045"                ? '<img src="MB KIMUKU.png" alt="MB KIMUKU Signature" style="width:180px;">'                : ''            }
             <p><strong>NAME:</strong> MB KIMUKU</p>
             <p><strong>RANK:</strong> Lt. Col</p>
             <p><strong>APPOINTMENT:</strong> Chief Instructor</p>        `;
